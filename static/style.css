@@ -1,5 +1,3 @@
-.center-block {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+a:hover {
+    text-decoration: none;
 }
