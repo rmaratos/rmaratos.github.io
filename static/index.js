@@ -1,5 +1,6 @@
 $( document ).ready(function() {
     $("#projects-dropdown").click(function() {
-        $("#projects").fadeToggle(50);
+        $("#projects").fadeToggle(0);
+        $(".pics").toggleClass("hcenter hleft");
     });
 });

@@ -7,13 +7,23 @@ a:hover {
 }
 
 .pics {
-    margin-top:20px;
-    margin-left: auto;
-    margin-right: auto;
+    margin-top: 15px;
+}
+
+.hcenter {
     text-align: center;
+}
+
+.hleft {
+    text-align: left;
 }
 
 img {
     width: 64px;
 }
 
+.unselectable {
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
