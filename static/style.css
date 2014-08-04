@@ -8,6 +8,8 @@ a:hover {
 
 .pics {
     margin-top: 15px;
+    -webkit-transition:width 2s, height 2s, background-color 2s, -webkit-transform 2s;
+    transition:width 2s, height 2s, background-color 2s, transform 2s;
 }
 
 .hcenter {
@@ -20,10 +22,4 @@ a:hover {
 
 img {
     width: 64px;
-}
-
-.unselectable {
-  -moz-user-select: none;
-  -webkit-user-select: none;
-  -ms-user-select: none;
 }
